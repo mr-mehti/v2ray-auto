@@ -1,4 +1,3 @@
-sudo wget https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh
 sudo chmod +x install.sh
 sudo ./install.sh
 sudo sysctl -w fs.file-max=12000500
