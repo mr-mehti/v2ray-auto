@@ -14,4 +14,4 @@ sudo sysctl -w net.ipv4.tcp_wmem='1024 4096 16384'
 sudo sysctl -w net.core.rmem_max=16384  
 # The maximum socket send buffer size
 sudo sysctl -w net.core.wmem_max=16384
-wget -N --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh && chmod +x bbr.sh && sudo bash bbr.sh && sudo ufw disable
+chmod +x bbr.sh && sudo bash bbr.sh && sudo ufw disable
