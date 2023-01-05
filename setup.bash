@@ -1,5 +1,6 @@
 sudo chmod +x install.sh
 sudo ./install.sh
+sudo apt install nginx-full -y
 sudo sysctl -w fs.file-max=12000500
 sudo sysctl -w fs.nr_open=20000500
 # Set the maximum number of open file descriptors
